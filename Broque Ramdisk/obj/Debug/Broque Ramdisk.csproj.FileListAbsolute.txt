@@ -1,0 +1,2 @@
+D:\Broque Ramdisk\Broque Ramdisk\obj\Debug\Broque Ramdisk.csproj.AssemblyReference.cache
+D:\Broque Ramdisk\Broque Ramdisk\obj\Debug\Broque Ramdisk.csproj.CoreCompileInputs.cache

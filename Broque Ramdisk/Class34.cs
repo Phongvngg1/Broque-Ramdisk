@@ -13,13 +13,13 @@ using System.Runtime.CompilerServices;
 [GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
 internal class Class34
 {
-	// Token: 0x06000128 RID: 296 RVA: 0x004AD818 File Offset: 0x004A8018
+	// Token: 0x06000128 RID: 296 RVA: 0x0020C800 File Offset: 0x0020AA00
 	internal Class34()
 	{
 	}
 
 	// Token: 0x17000001 RID: 1
-	// (get) Token: 0x06000129 RID: 297 RVA: 0x004C0DD4 File Offset: 0x004BB5D4
+	// (get) Token: 0x06000129 RID: 297 RVA: 0x0021FDBC File Offset: 0x0021DFBC
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	internal static ResourceManager ResourceManager_0
 	{
@@ -35,8 +35,8 @@ internal class Class34
 	}
 
 	// Token: 0x17000002 RID: 2
-	// (get) Token: 0x0600012A RID: 298 RVA: 0x004C0E14 File Offset: 0x004BB614
-	// (set) Token: 0x0600012B RID: 299 RVA: 0x004C0E28 File Offset: 0x004BB628
+	// (get) Token: 0x0600012A RID: 298 RVA: 0x0021FDFC File Offset: 0x0021DFFC
+	// (set) Token: 0x0600012B RID: 299 RVA: 0x0021FE10 File Offset: 0x0021E010
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	internal static CultureInfo CultureInfo_0
 	{
@@ -51,7 +51,7 @@ internal class Class34
 	}
 
 	// Token: 0x17000003 RID: 3
-	// (get) Token: 0x0600012C RID: 300 RVA: 0x004C0E3C File Offset: 0x004BB63C
+	// (get) Token: 0x0600012C RID: 300 RVA: 0x0021FE24 File Offset: 0x0021E024
 	internal static byte[] Byte_0
 	{
 		get
@@ -62,7 +62,7 @@ internal class Class34
 	}
 
 	// Token: 0x17000004 RID: 4
-	// (get) Token: 0x0600012D RID: 301 RVA: 0x004C0E68 File Offset: 0x004BB668
+	// (get) Token: 0x0600012D RID: 301 RVA: 0x0021FE50 File Offset: 0x0021E050
 	internal static Bitmap Bitmap_0
 	{
 		get
@@ -73,7 +73,7 @@ internal class Class34
 	}
 
 	// Token: 0x17000005 RID: 5
-	// (get) Token: 0x0600012E RID: 302 RVA: 0x004C0E94 File Offset: 0x004BB694
+	// (get) Token: 0x0600012E RID: 302 RVA: 0x0021FE7C File Offset: 0x0021E07C
 	internal static Bitmap Bitmap_1
 	{
 		get
@@ -84,7 +84,7 @@ internal class Class34
 	}
 
 	// Token: 0x17000006 RID: 6
-	// (get) Token: 0x0600012F RID: 303 RVA: 0x004C0EC0 File Offset: 0x004BB6C0
+	// (get) Token: 0x0600012F RID: 303 RVA: 0x0021FEA8 File Offset: 0x0021E0A8
 	internal static byte[] Byte_1
 	{
 		get

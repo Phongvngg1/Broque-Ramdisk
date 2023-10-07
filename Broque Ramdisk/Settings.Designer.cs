@@ -11,7 +11,7 @@ namespace Broque_Ramdisk.Properties
 	internal sealed partial class Settings : ApplicationSettingsBase
 	{
 		// Token: 0x17000007 RID: 7
-		// (get) Token: 0x06000130 RID: 304 RVA: 0x004C0EEC File Offset: 0x004BB6EC
+		// (get) Token: 0x06000130 RID: 304 RVA: 0x0021FED4 File Offset: 0x0021E0D4
 		public static Settings Default
 		{
 			get

@@ -31,7 +31,7 @@ using RestSharp;
 // Token: 0x0200000D RID: 13
 public partial class Form1 : Form
 {
-	// Token: 0x0600003D RID: 61 RVA: 0x004AE50C File Offset: 0x004A8D0C
+	// Token: 0x0600003D RID: 61 RVA: 0x0020D4F4 File Offset: 0x0020B6F4
 	public Form1()
 	{
 		if (Process.GetProcessesByName(Path.GetFileNameWithoutExtension(Assembly.GetEntryAssembly().Location)).Count<Process>() > 1)
@@ -48,7 +48,7 @@ public partial class Form1 : Form
 		this.label21.Text = "v" + this.string_0;
 	}
 
-	// Token: 0x0600003E RID: 62 RVA: 0x004AE6A8 File Offset: 0x004A8EA8
+	// Token: 0x0600003E RID: 62 RVA: 0x0020D690 File Offset: 0x0020B890
 	public T0 method_0<T0, T1, T2>()
 	{
 		T0 t2;
@@ -60,7 +60,7 @@ public partial class Form1 : Form
 		return t2;
 	}
 
-	// Token: 0x0600003F RID: 63 RVA: 0x004AE6F0 File Offset: 0x004A8EF0
+	// Token: 0x0600003F RID: 63 RVA: 0x0020D6D8 File Offset: 0x0020B8D8
 	public void method_1<T0, T1>()
 	{
 		T0 t = Form1.smethod_4();
@@ -77,7 +77,7 @@ public partial class Form1 : Form
 		Process.Start(t);
 	}
 
-	// Token: 0x06000040 RID: 64 RVA: 0x004AE758 File Offset: 0x004A8F58
+	// Token: 0x06000040 RID: 64 RVA: 0x0020D740 File Offset: 0x0020B940
 	public void method_2<T0, T1, T2, T3, T4>()
 	{
 		T0 t = new SQLiteConnection("URI=file:./files/BackUp/" + this.string_5 + "/iCloudInfo/Accounts3.sqlite");
@@ -112,8 +112,8 @@ public partial class Form1 : Form
 		}));
 	}
 
-	// Token: 0x06000041 RID: 65 RVA: 0x004AE92C File Offset: 0x004A912C
-	private static T4 very_sus<T0, T1, T2, T3, T4, T5, T6, T7, T8>(T4 gparam_0, T4 gparam_1, T4 gparam_2)
+	// Token: 0x06000041 RID: 65 RVA: 0x0020D914 File Offset: 0x0020BB14
+	private static T4 smethod_0<T0, T1, T2, T3, T4, T5, T6, T7, T8>(T4 gparam_0, T4 gparam_1, T4 gparam_2)
 	{
 		T0 t = new RestClient(string.Concat(new T4[] { "https://api.github.com/repos/", gparam_0, "/", gparam_1, "/contents/", gparam_2 }));
 		T1 t2 = new RestRequest(Method.GET);
@@ -170,7 +170,7 @@ public partial class Form1 : Form
 		return Form1.Class10.callSite_5.Target(Form1.Class10.callSite_5, t6);
 	}
 
-	// Token: 0x06000042 RID: 66 RVA: 0x004AEBB4 File Offset: 0x004A93B4
+	// Token: 0x06000042 RID: 66 RVA: 0x0020DB9C File Offset: 0x0020BD9C
 	public void method_3<T0, T1, T2>()
 	{
 		if (!this.checkBox3.Checked)
@@ -198,7 +198,7 @@ public partial class Form1 : Form
 		t3.Start();
 	}
 
-	// Token: 0x06000043 RID: 67 RVA: 0x004AED20 File Offset: 0x004A9520
+	// Token: 0x06000043 RID: 67 RVA: 0x0020DD08 File Offset: 0x0020BF08
 	[DebuggerStepThrough]
 	public T0 method_4<T0>()
 	{
@@ -210,7 +210,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000044 RID: 68 RVA: 0x004AED64 File Offset: 0x004A9564
+	// Token: 0x06000044 RID: 68 RVA: 0x0020DD4C File Offset: 0x0020BF4C
 	public T2 method_5<T0, T1, T2, T3>()
 	{
 		this.progressBar1.Value = 0;
@@ -269,7 +269,7 @@ public partial class Form1 : Form
 		return 1;
 	}
 
-	// Token: 0x06000045 RID: 69 RVA: 0x004AEE2C File Offset: 0x004A962C
+	// Token: 0x06000045 RID: 69 RVA: 0x0020DE14 File Offset: 0x0020C014
 	public void method_6<T0, T1, T2>(T1 gparam_0)
 	{
 		T0 t = Form1.smethod_5();
@@ -296,7 +296,7 @@ public partial class Form1 : Form
 		t.WaitForExit();
 	}
 
-	// Token: 0x06000046 RID: 70 RVA: 0x004AEF48 File Offset: 0x004A9748
+	// Token: 0x06000046 RID: 70 RVA: 0x0020DF30 File Offset: 0x0020C130
 	public void method_7<T0, T1>()
 	{
 		T0 t = Form1.smethod_5();
@@ -323,7 +323,7 @@ public partial class Form1 : Form
 		t.WaitForExit();
 	}
 
-	// Token: 0x06000047 RID: 71 RVA: 0x004AF018 File Offset: 0x004A9818
+	// Token: 0x06000047 RID: 71 RVA: 0x0020E000 File Offset: 0x0020C200
 	public void method_8<T0, T1>()
 	{
 		T0 t = Form1.smethod_5();
@@ -359,7 +359,7 @@ public partial class Form1 : Form
 		t.WaitForExit();
 	}
 
-	// Token: 0x06000048 RID: 72 RVA: 0x004AF144 File Offset: 0x004A9944
+	// Token: 0x06000048 RID: 72 RVA: 0x0020E12C File Offset: 0x0020C32C
 	public void method_9<T0, T1, T2>()
 	{
 		T0 t = Form1.smethod_5();
@@ -382,7 +382,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000049 RID: 73 RVA: 0x004AF1EC File Offset: 0x004A99EC
+	// Token: 0x06000049 RID: 73 RVA: 0x0020E1D4 File Offset: 0x0020C3D4
 	public void method_10<T0>()
 	{
 		using (T0 t = Form1.smethod_5())
@@ -399,7 +399,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600004A RID: 74 RVA: 0x004AF290 File Offset: 0x004A9A90
+	// Token: 0x0600004A RID: 74 RVA: 0x0020E278 File Offset: 0x0020C478
 	public void method_11<T0, T1, T2>(T2 gparam_0)
 	{
 		using (T0 t = Form1.smethod_5())
@@ -423,7 +423,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600004B RID: 75 RVA: 0x004AF35C File Offset: 0x004A9B5C
+	// Token: 0x0600004B RID: 75 RVA: 0x0020E344 File Offset: 0x0020C544
 	public T1 method_12<T0, T1, T2, T3, T4>(T3 gparam_0)
 	{
 		T0 t;
@@ -478,7 +478,7 @@ public partial class Form1 : Form
 		return 0;
 	}
 
-	// Token: 0x0600004C RID: 76 RVA: 0x004AF47C File Offset: 0x004A9C7C
+	// Token: 0x0600004C RID: 76 RVA: 0x0020E464 File Offset: 0x0020C664
 	public void method_13<T0, T1, T2, T3, T4>()
 	{
 		while (this.method_12<T1, T0, T2, T3, T4>("pair") == 0)
@@ -487,7 +487,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600004D RID: 77 RVA: 0x004AF4B4 File Offset: 0x004A9CB4
+	// Token: 0x0600004D RID: 77 RVA: 0x0020E49C File Offset: 0x0020C69C
 	public T1 method_14<T0, T1, T2, T3>()
 	{
 		T0 t = WebRequest.CreateHttp("http://ahmedunllock.tech/windows/AIO_PHPP/GSM-2/gsm_activation_record.php?serial=" + this.string_6);
@@ -504,13 +504,13 @@ public partial class Form1 : Form
 		return t4;
 	}
 
-	// Token: 0x0600004E RID: 78 RVA: 0x004AF544 File Offset: 0x004A9D44
+	// Token: 0x0600004E RID: 78 RVA: 0x0020E52C File Offset: 0x0020C72C
 	public T0 method_15<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		return gparam_0.Split(Environment.NewLine.ToCharArray(), gparam_1 + 1).Skip(gparam_1).FirstOrDefault<T0>();
 	}
 
-	// Token: 0x0600004F RID: 79 RVA: 0x004AF574 File Offset: 0x004A9D74
+	// Token: 0x0600004F RID: 79 RVA: 0x0020E55C File Offset: 0x0020C75C
 	public T1 method_16<T0, T1, T2, T3>(T2 gparam_0, T1 gparam_1, T3 gparam_2 = 4)
 	{
 		T0 t;
@@ -523,7 +523,7 @@ public partial class Form1 : Form
 			.Trim();
 	}
 
-	// Token: 0x06000050 RID: 80 RVA: 0x004AF600 File Offset: 0x004A9E00
+	// Token: 0x06000050 RID: 80 RVA: 0x0020E5E8 File Offset: 0x0020C7E8
 	public void method_17<T0, T1, T2, T3, T4, T5, T6>()
 	{
 		T0 t = this.method_14<T2, T0, T3, T4>();
@@ -536,7 +536,7 @@ public partial class Form1 : Form
 		PropertyListParser.SaveAsXml(t2, new FileInfo(Environment.CurrentDirectory + "/files/Backup/" + this.string_5 + "/activation_record.plist"));
 	}
 
-	// Token: 0x06000051 RID: 81 RVA: 0x004AF6D8 File Offset: 0x004A9ED8
+	// Token: 0x06000051 RID: 81 RVA: 0x0020E6C0 File Offset: 0x0020C8C0
 	public void method_18<T0, T1, T2>(T2 gparam_0)
 	{
 		T0 t = Form1.smethod_5();
@@ -550,7 +550,7 @@ public partial class Form1 : Form
 		t.WaitForExit();
 	}
 
-	// Token: 0x06000052 RID: 82 RVA: 0x004AF744 File Offset: 0x004A9F44
+	// Token: 0x06000052 RID: 82 RVA: 0x0020E72C File Offset: 0x0020C92C
 	public void method_19<T0>()
 	{
 		T0 t = (T0)((object)PropertyListParser.Parse(new FileInfo(Environment.CurrentDirectory + "/files/Backup/" + this.string_5 + "/com.apple.commcenter.device_specific_nobackup.plist")));
@@ -572,7 +572,7 @@ public partial class Form1 : Form
 		PropertyListParser.SaveAsXml(t, new FileInfo(Environment.CurrentDirectory + "/files/Backup/" + this.string_5 + "/com.apple.commcenter.device_specific_nobackup.plist"));
 	}
 
-	// Token: 0x06000053 RID: 83 RVA: 0x004AF814 File Offset: 0x004AA014
+	// Token: 0x06000053 RID: 83 RVA: 0x0020E7FC File Offset: 0x0020C9FC
 	public void method_20<T0>()
 	{
 		T0 t = (T0)((object)PropertyListParser.Parse(new FileInfo(Environment.CurrentDirectory + "/files/Backup/" + this.string_5 + "/data_ark.plist")));
@@ -589,7 +589,7 @@ public partial class Form1 : Form
 		PropertyListParser.SaveAsXml(t, new FileInfo(Environment.CurrentDirectory + "/files/Backup/" + this.string_5 + "/data_ark.plist"));
 	}
 
-	// Token: 0x06000054 RID: 84 RVA: 0x004AF8BC File Offset: 0x004AA0BC
+	// Token: 0x06000054 RID: 84 RVA: 0x0020E8A4 File Offset: 0x0020CAA4
 	public void method_21<T0, T1, T2, T3>()
 	{
 		try
@@ -618,7 +618,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000055 RID: 85 RVA: 0x004AF974 File Offset: 0x004AA174
+	// Token: 0x06000055 RID: 85 RVA: 0x0020E95C File Offset: 0x0020CB5C
 	public void method_22<T0>()
 	{
 		this.ECIDValue.Text = "";
@@ -640,7 +640,7 @@ public partial class Form1 : Form
 		this.bool_0 = false;
 	}
 
-	// Token: 0x06000056 RID: 86 RVA: 0x004AFA6C File Offset: 0x004AA26C
+	// Token: 0x06000056 RID: 86 RVA: 0x0020EA54 File Offset: 0x0020CC54
 	public void method_23<T0, T1, T2, T3>(T3 gparam_0, T3 gparam_1)
 	{
 		using (T0 t = Ionic.Zip.ZipFile.Read(gparam_0))
@@ -653,13 +653,13 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000057 RID: 87 RVA: 0x004AFAE0 File Offset: 0x004AA2E0
+	// Token: 0x06000057 RID: 87 RVA: 0x0020EAC8 File Offset: 0x0020CCC8
 	public void method_24<T0>(T0 gparam_0, T0 gparam_1)
 	{
 		System.IO.Compression.ZipFile.CreateFromDirectory(gparam_0, gparam_1);
 	}
 
-	// Token: 0x06000058 RID: 88 RVA: 0x004AFAF4 File Offset: 0x004AA2F4
+	// Token: 0x06000058 RID: 88 RVA: 0x0020EADC File Offset: 0x0020CCDC
 	[DebuggerStepThrough]
 	public T0 method_25<T0, T1>(T1 gparam_0)
 	{
@@ -672,7 +672,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000059 RID: 89 RVA: 0x004AFB40 File Offset: 0x004AA340
+	// Token: 0x06000059 RID: 89 RVA: 0x0020EB28 File Offset: 0x0020CD28
 	[DebuggerStepThrough]
 	public T0 method_26<T0>()
 	{
@@ -684,7 +684,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x0600005A RID: 90 RVA: 0x004AFB84 File Offset: 0x004AA384
+	// Token: 0x0600005A RID: 90 RVA: 0x0020EB6C File Offset: 0x0020CD6C
 	[DebuggerStepThrough]
 	public T0 method_27<T0>()
 	{
@@ -696,7 +696,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x0600005B RID: 91 RVA: 0x004AFBC8 File Offset: 0x004AA3C8
+	// Token: 0x0600005B RID: 91 RVA: 0x0020EBB0 File Offset: 0x0020CDB0
 	public void method_28<T0, T1, T2, T3>(T0 gparam_0)
 	{
 		T0 t = File.ReadAllText("./files/BackUp/" + this.string_5 + "/" + gparam_0.ToString());
@@ -713,7 +713,7 @@ public partial class Form1 : Form
 		File.WriteAllBytes(t4, array2);
 	}
 
-	// Token: 0x0600005C RID: 92 RVA: 0x004AFC9C File Offset: 0x004AA49C
+	// Token: 0x0600005C RID: 92 RVA: 0x0020EC84 File Offset: 0x0020CE84
 	public void method_29<T0, T1, T2, T3, T4>()
 	{
 		T0 t = File.ReadAllText("./files/BackUp/" + this.string_5 + "/Wildcard.der");
@@ -729,7 +729,7 @@ public partial class Form1 : Form
 		File.Delete("./files/BackUp/" + this.string_5 + "/Wildcard.der");
 	}
 
-	// Token: 0x0600005D RID: 93 RVA: 0x004AFD68 File Offset: 0x004AA568
+	// Token: 0x0600005D RID: 93 RVA: 0x0020ED50 File Offset: 0x0020CF50
 	public T0 method_30<T0, T1, T2, T3>(T0 gparam_0)
 	{
 		T0 t = string.Concat(new T0[] { gparam_0, "?udid=", this.string_7, "&sn=", this.string_6, "&ucid=", this.string_8 });
@@ -747,7 +747,7 @@ public partial class Form1 : Form
 		return t5;
 	}
 
-	// Token: 0x0600005E RID: 94 RVA: 0x004AFE30 File Offset: 0x004AA630
+	// Token: 0x0600005E RID: 94 RVA: 0x0020EE18 File Offset: 0x0020D018
 	public void method_31<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>()
 	{
 		try
@@ -786,7 +786,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600005F RID: 95 RVA: 0x004B004C File Offset: 0x004AA84C
+	// Token: 0x0600005F RID: 95 RVA: 0x0020F034 File Offset: 0x0020D234
 	public void method_32<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>()
 	{
 		try
@@ -827,7 +827,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000060 RID: 96 RVA: 0x004B02B8 File Offset: 0x004AAAB8
+	// Token: 0x06000060 RID: 96 RVA: 0x0020F2A0 File Offset: 0x0020D4A0
 	public T2 method_33<T0, T1, T2>()
 	{
 		T0 length = new FileInfo(Environment.CurrentDirectory + "/files/BackUp/" + this.string_5 + ".zip").Length;
@@ -844,7 +844,7 @@ public partial class Form1 : Form
 		return t2;
 	}
 
-	// Token: 0x06000061 RID: 97 RVA: 0x004B0314 File Offset: 0x004AAB14
+	// Token: 0x06000061 RID: 97 RVA: 0x0020F2FC File Offset: 0x0020D4FC
 	public static T2 smethod_1<T0, T1, T2, T3>(T2 gparam_0, T2 gparam_1, T1 gparam_2 = true, T1 gparam_3 = false)
 	{
 		Process process = Form1.smethod_5();
@@ -889,7 +889,7 @@ public partial class Form1 : Form
 		return t3;
 	}
 
-	// Token: 0x06000062 RID: 98 RVA: 0x004B03E0 File Offset: 0x004AABE0
+	// Token: 0x06000062 RID: 98 RVA: 0x0020F3C8 File Offset: 0x0020D5C8
 	[DebuggerStepThrough]
 	public T0 method_34<T0>()
 	{
@@ -901,7 +901,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000063 RID: 99 RVA: 0x004B0424 File Offset: 0x004AAC24
+	// Token: 0x06000063 RID: 99 RVA: 0x0020F40C File Offset: 0x0020D60C
 	public void method_35<T0>()
 	{
 		T0 t = Form1.smethod_5();
@@ -914,7 +914,7 @@ public partial class Form1 : Form
 		t.Start();
 	}
 
-	// Token: 0x06000064 RID: 100 RVA: 0x004B0498 File Offset: 0x004AAC98
+	// Token: 0x06000064 RID: 100 RVA: 0x0020F480 File Offset: 0x0020D680
 	[DebuggerStepThrough]
 	public T0 method_36<T0>()
 	{
@@ -926,7 +926,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000065 RID: 101 RVA: 0x004B04DC File Offset: 0x004AACDC
+	// Token: 0x06000065 RID: 101 RVA: 0x0020F4C4 File Offset: 0x0020D6C4
 	[DebuggerStepThrough]
 	public T0 method_37<T0>()
 	{
@@ -938,14 +938,14 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000066 RID: 102 RVA: 0x004B0520 File Offset: 0x004AAD20
+	// Token: 0x06000066 RID: 102 RVA: 0x0020F508 File Offset: 0x0020D708
 	public T1 method_38<T0, T1, T2>()
 	{
 		T0 t = Form1.smethod_9();
 		return string.Format("bgcolor {0} {1} {2}", t.Next(256), t.Next(256), t.Next(256));
 	}
 
-	// Token: 0x06000067 RID: 103 RVA: 0x004B0570 File Offset: 0x004AAD70
+	// Token: 0x06000067 RID: 103 RVA: 0x0020F558 File Offset: 0x0020D758
 	[DebuggerStepThrough]
 	public T0 method_39<T0, T1>(T1 gparam_0)
 	{
@@ -958,7 +958,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x06000068 RID: 104 RVA: 0x004B05BC File Offset: 0x004AADBC
+	// Token: 0x06000068 RID: 104 RVA: 0x0020F5A4 File Offset: 0x0020D7A4
 	public void method_40()
 	{
 		this.startDFU.Enabled = true;
@@ -978,7 +978,7 @@ public partial class Form1 : Form
 		this.label23.Visible = true;
 	}
 
-	// Token: 0x06000069 RID: 105 RVA: 0x004B0688 File Offset: 0x004AAE88
+	// Token: 0x06000069 RID: 105 RVA: 0x0020F670 File Offset: 0x0020D870
 	[DebuggerStepThrough]
 	public T0 method_41<T0>()
 	{
@@ -990,7 +990,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x0600006A RID: 106 RVA: 0x004B06CC File Offset: 0x004AAECC
+	// Token: 0x0600006A RID: 106 RVA: 0x0020F6B4 File Offset: 0x0020D8B4
 	[DebuggerStepThrough]
 	public T0 method_42<T0>()
 	{
@@ -1002,7 +1002,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x0600006B RID: 107 RVA: 0x004B0710 File Offset: 0x004AAF10
+	// Token: 0x0600006B RID: 107 RVA: 0x0020F6F8 File Offset: 0x0020D8F8
 	public void method_43<T0, T1, T2>(T1 gparam_0)
 	{
 		Form1.Class9 @class = new Form1.Class9();
@@ -1020,7 +1020,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600006C RID: 108 RVA: 0x004B078C File Offset: 0x004AAF8C
+	// Token: 0x0600006C RID: 108 RVA: 0x0020F774 File Offset: 0x0020D974
 	public static T4 smethod_2<T0, T1, T2, T3, T4, T5, T6>(T4 gparam_0)
 	{
 		T0 t = Activator.CreateInstance(typeof(T0));
@@ -1061,7 +1061,7 @@ public partial class Form1 : Form
 		return t7;
 	}
 
-	// Token: 0x0600006D RID: 109 RVA: 0x004B08A8 File Offset: 0x004AB0A8
+	// Token: 0x0600006D RID: 109 RVA: 0x0020F890 File Offset: 0x0020DA90
 	public T1 method_44<T0, T1, T2>(T1 gparam_0)
 	{
 		T0 t = this.sshClient_0.CreateCommand(gparam_0);
@@ -1079,7 +1079,7 @@ public partial class Form1 : Form
 		return t3;
 	}
 
-	// Token: 0x0600006E RID: 110 RVA: 0x004B08FC File Offset: 0x004AB0FC
+	// Token: 0x0600006E RID: 110 RVA: 0x0020F8E4 File Offset: 0x0020DAE4
 	public void method_45<T0, T1, T2, T3, T4, T5>(T2 gparam_0)
 	{
 		try
@@ -1140,7 +1140,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600006F RID: 111 RVA: 0x004B0C00 File Offset: 0x004AB400
+	// Token: 0x0600006F RID: 111 RVA: 0x0020FBE8 File Offset: 0x0020DDE8
 	public void method_46<T0>()
 	{
 		T0 t = Form1.smethod_5();
@@ -1152,14 +1152,14 @@ public partial class Form1 : Form
 		t.WaitForExit();
 	}
 
-	// Token: 0x06000070 RID: 112 RVA: 0x004B0C68 File Offset: 0x004AB468
+	// Token: 0x06000070 RID: 112 RVA: 0x0020FC50 File Offset: 0x0020DE50
 	public void method_47()
 	{
 		Directory.Delete(Environment.CurrentDirectory + "/tmp", true);
 		Directory.CreateDirectory(Environment.CurrentDirectory + "/tmp");
 	}
 
-	// Token: 0x06000071 RID: 113 RVA: 0x004B0CA0 File Offset: 0x004AB4A0
+	// Token: 0x06000071 RID: 113 RVA: 0x0020FC88 File Offset: 0x0020DE88
 	public void method_48<T0, T1, T2, T3>()
 	{
 		T0 t = string.Concat(new T0[]
@@ -1179,7 +1179,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000072 RID: 114 RVA: 0x004B0D94 File Offset: 0x004AB594
+	// Token: 0x06000072 RID: 114 RVA: 0x0020FD7C File Offset: 0x0020DF7C
 	public void method_49<T0, T1>()
 	{
 		T0 t = "https://hasnit3ch.com/Backup/Ramdisktool/Files/MDM68/MDM.zip";
@@ -1189,7 +1189,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000073 RID: 115 RVA: 0x004B0DE0 File Offset: 0x004AB5E0
+	// Token: 0x06000073 RID: 115 RVA: 0x0020FDC8 File Offset: 0x0020DFC8
 	public void method_50<T0, T1, T2, T3, T4, T5>()
 	{
 		T0[] byte_ = Class34.Byte_1;
@@ -1208,7 +1208,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000074 RID: 116 RVA: 0x004B0EA8 File Offset: 0x004AB6A8
+	// Token: 0x06000074 RID: 116 RVA: 0x0020FE90 File Offset: 0x0020E090
 	public void method_51<T0>()
 	{
 		File.Delete(Environment.CurrentDirectory + "/tmp/ffe2017db9c5071adfa1c23d3769970f7524a9d4/Info.plist");
@@ -1240,7 +1240,7 @@ public partial class Form1 : Form
 		File.WriteAllText(Environment.CurrentDirectory + "/tmp/ffe2017db9c5071adfa1c23d3769970f7524a9d4/Manifest.plist", t2);
 	}
 
-	// Token: 0x06000075 RID: 117 RVA: 0x004B100C File Offset: 0x004AB80C
+	// Token: 0x06000075 RID: 117 RVA: 0x0020FFF4 File Offset: 0x0020E1F4
 	public void method_52<T0, T1, T2, T3>()
 	{
 		T0 t = Form1.smethod_5();
@@ -1274,13 +1274,13 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000076 RID: 118 RVA: 0x004B10E8 File Offset: 0x004AB8E8
+	// Token: 0x06000076 RID: 118 RVA: 0x002100D0 File Offset: 0x0020E2D0
 	public async void method_53()
 	{
 		await Task.Run(new Action(this.method_106<Exception, bool, Process, StreamReader, string, ProcessStartInfo, int, System.Windows.Forms.Timer, byte, MemoryStream, ZipArchive, IEnumerator<ZipArchiveEntry>, ZipArchiveEntry>));
 	}
 
-	// Token: 0x06000077 RID: 119 RVA: 0x004B1124 File Offset: 0x004AB924
+	// Token: 0x06000077 RID: 119 RVA: 0x0021010C File Offset: 0x0020E30C
 	public void method_54<T0, T1, T2, T3>()
 	{
 		T0 @checked = this.checkBox3.Checked;
@@ -1433,7 +1433,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000078 RID: 120 RVA: 0x004B1A80 File Offset: 0x004AC280
+	// Token: 0x06000078 RID: 120 RVA: 0x00210A68 File Offset: 0x0020EC68
 	public void method_55<T0, T1, T2, T3>()
 	{
 		this.sshClient_0.CreateCommand("if [ -e /usr/bin/mount_universal ]; then mount_universal; else mount_filesystems; fi").Execute();
@@ -1450,7 +1450,7 @@ public partial class Form1 : Form
 		this.sshClient_0.CreateCommand("/sbin/mount_apfs /dev/disk1s2 /mnt2 && /sbin/mount_apfs /dev/disk1s2 /mnt2").Execute();
 	}
 
-	// Token: 0x06000079 RID: 121 RVA: 0x004B1B2C File Offset: 0x004AC32C
+	// Token: 0x06000079 RID: 121 RVA: 0x00210B14 File Offset: 0x0020ED14
 	public void method_56<T0, T1, T2, T3>()
 	{
 		this.method_54<T0, T1, T2, T3>();
@@ -1462,7 +1462,7 @@ public partial class Form1 : Form
 		this.sshClient_0.CreateCommand("/sbin/mount_apfs /dev/disk1s2 /mnt2 && /sbin/mount_apfs /dev/disk1s2 /mnt2").Execute();
 	}
 
-	// Token: 0x0600007A RID: 122 RVA: 0x004B1BC4 File Offset: 0x004AC3C4
+	// Token: 0x0600007A RID: 122 RVA: 0x00210BAC File Offset: 0x0020EDAC
 	public void method_57<T0, T1, T2, T3>()
 	{
 		this.method_54<T0, T1, T2, T3>();
@@ -1471,7 +1471,7 @@ public partial class Form1 : Form
 		this.sshClient_0.CreateCommand("/sbin/mount_apfs /dev/disk1s2 /mnt2 && /sbin/mount_apfs /dev/disk1s2 /mnt2").Execute();
 	}
 
-	// Token: 0x0600007B RID: 123 RVA: 0x004B1C1C File Offset: 0x004AC41C
+	// Token: 0x0600007B RID: 123 RVA: 0x00210C04 File Offset: 0x0020EE04
 	public async void method_58()
 	{
 		this.progressBar2.Value = 0;
@@ -1552,7 +1552,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600007C RID: 124 RVA: 0x004B1C58 File Offset: 0x004AC458
+	// Token: 0x0600007C RID: 124 RVA: 0x00210C40 File Offset: 0x0020EE40
 	public async void method_59()
 	{
 		this.progressBar2.Value = 0;
@@ -1653,7 +1653,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600007D RID: 125 RVA: 0x004B1C94 File Offset: 0x004AC494
+	// Token: 0x0600007D RID: 125 RVA: 0x00210C7C File Offset: 0x0020EE7C
 	public void method_60<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>()
 	{
 		this.label11.ForeColor = Color.Black;
@@ -1757,7 +1757,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600007E RID: 126 RVA: 0x004B2414 File Offset: 0x004ACC14
+	// Token: 0x0600007E RID: 126 RVA: 0x002113FC File Offset: 0x0020F5FC
 	public void method_61<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>()
 	{
 		this.label11.ForeColor = Color.Black;
@@ -1910,7 +1910,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600007F RID: 127 RVA: 0x004B2E4C File Offset: 0x004AD64C
+	// Token: 0x0600007F RID: 127 RVA: 0x00211E34 File Offset: 0x00210034
 	public async void method_62()
 	{
 		this.progressBar2.Value = 0;
@@ -1937,7 +1937,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000080 RID: 128 RVA: 0x004B2E88 File Offset: 0x004AD688
+	// Token: 0x06000080 RID: 128 RVA: 0x00211E70 File Offset: 0x00210070
 	public void method_63<T0, T1, T2, T3, T4, T5, T6, T7, T8>()
 	{
 		this.method_13<T2, T3, T4, T5, T6>();
@@ -1992,7 +1992,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000081 RID: 129 RVA: 0x004B319C File Offset: 0x004AD99C
+	// Token: 0x06000081 RID: 129 RVA: 0x00212184 File Offset: 0x00210384
 	public void method_64<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>()
 	{
 		try
@@ -2085,13 +2085,13 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000082 RID: 130 RVA: 0x004B3880 File Offset: 0x004AE080
+	// Token: 0x06000082 RID: 130 RVA: 0x00212868 File Offset: 0x00210A68
 	private void method_65<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.jailbreakPanel.Visible = true;
 	}
 
-	// Token: 0x06000083 RID: 131 RVA: 0x004B389C File Offset: 0x004AE09C
+	// Token: 0x06000083 RID: 131 RVA: 0x00212884 File Offset: 0x00210A84
 	private void method_66<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 t = this.checkBox2.Checked || this.checkBox5.Checked || this.checkBox9.Checked || this.checkBox10.Checked || this.checkBox11.Checked || this.checkBox12.Checked;
@@ -2106,7 +2106,7 @@ public partial class Form1 : Form
 		this.jailbreakPanel.Visible = false;
 	}
 
-	// Token: 0x06000084 RID: 132 RVA: 0x004B392C File Offset: 0x004AE12C
+	// Token: 0x06000084 RID: 132 RVA: 0x00212914 File Offset: 0x00210B14
 	private async void method_67<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.feedbacktext.ForeColor = Color.Black;
@@ -2437,26 +2437,26 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000085 RID: 133 RVA: 0x004B3974 File Offset: 0x004AE174
+	// Token: 0x06000085 RID: 133 RVA: 0x0021295C File Offset: 0x00210B5C
 	private void method_68<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.ECIDValue.ForeColor = Color.DodgerBlue;
 	}
 
-	// Token: 0x06000086 RID: 134 RVA: 0x004B3994 File Offset: 0x004AE194
+	// Token: 0x06000086 RID: 134 RVA: 0x0021297C File Offset: 0x00210B7C
 	private void method_69<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.ECIDValue.ForeColor = Color.Black;
 	}
 
-	// Token: 0x06000087 RID: 135 RVA: 0x004B39B4 File Offset: 0x004AE1B4
+	// Token: 0x06000087 RID: 135 RVA: 0x0021299C File Offset: 0x00210B9C
 	private void method_70<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		Clipboard.SetText(this.ECIDValue.Text);
 		MessageBox.Show("Device ECID successfully copied!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 	}
 
-	// Token: 0x06000088 RID: 136 RVA: 0x004B39E4 File Offset: 0x004AE1E4
+	// Token: 0x06000088 RID: 136 RVA: 0x002129CC File Offset: 0x00210BCC
 	private async void method_71<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		if (!File.Exists("C:\\Windows\\System32\\msvcr120.dll"))
@@ -2506,7 +2506,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000089 RID: 137 RVA: 0x004B3A2C File Offset: 0x004AE22C
+	// Token: 0x06000089 RID: 137 RVA: 0x00212A14 File Offset: 0x00210C14
 	private void method_72<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 t = !this.checkBox1.Checked;
@@ -2520,7 +2520,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600008A RID: 138 RVA: 0x004B3A68 File Offset: 0x004AE268
+	// Token: 0x0600008A RID: 138 RVA: 0x00212A50 File Offset: 0x00210C50
 	private void method_73<T0, T1, T2, T3, T4>(T2 gparam_0, T3 gparam_1)
 	{
 		T0 t = MessageBox.Show("Do you want to Exit!", "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
@@ -2538,7 +2538,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600008B RID: 139 RVA: 0x004B3AB8 File Offset: 0x004AE2B8
+	// Token: 0x0600008B RID: 139 RVA: 0x00212AA0 File Offset: 0x00210CA0
 	private void method_74<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		ProcessStartInfo processStartInfo = Form1.smethod_4();
@@ -2547,7 +2547,7 @@ public partial class Form1 : Form
 		Process.Start(processStartInfo);
 	}
 
-	// Token: 0x0600008C RID: 140 RVA: 0x004B3AE4 File Offset: 0x004AE2E4
+	// Token: 0x0600008C RID: 140 RVA: 0x00212ACC File Offset: 0x00210CCC
 	public void method_75<T0, T1, T2>()
 	{
 		this.button5.Enabled = false;
@@ -2559,7 +2559,7 @@ public partial class Form1 : Form
 		items.AddRange(array2);
 	}
 
-	// Token: 0x0600008D RID: 141 RVA: 0x004B3B2C File Offset: 0x004AE32C
+	// Token: 0x0600008D RID: 141 RVA: 0x00212B14 File Offset: 0x00210D14
 	private async void method_76<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		if (!(this.button3.Text == "Next"))
@@ -2737,7 +2737,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600008E RID: 142 RVA: 0x004B3B74 File Offset: 0x004AE374
+	// Token: 0x0600008E RID: 142 RVA: 0x00212B5C File Offset: 0x00210D5C
 	private async void method_77<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		await this.method_34<Task<bool>>();
@@ -2750,7 +2750,7 @@ public partial class Form1 : Form
 		this.button3.Enabled = true;
 	}
 
-	// Token: 0x0600008F RID: 143 RVA: 0x004B3BBC File Offset: 0x004AE3BC
+	// Token: 0x0600008F RID: 143 RVA: 0x00212BA4 File Offset: 0x00210DA4
 	private void method_78<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		if (!this.checkBox2.Checked)
@@ -2773,7 +2773,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000090 RID: 144 RVA: 0x004B3C6C File Offset: 0x004AE46C
+	// Token: 0x06000090 RID: 144 RVA: 0x00212C54 File Offset: 0x00210E54
 	public T0 method_79<T0>()
 	{
 		T0 t = !this.serialPort_0.IsOpen;
@@ -2794,13 +2794,13 @@ public partial class Form1 : Form
 		return 1;
 	}
 
-	// Token: 0x06000091 RID: 145 RVA: 0x004B3CE8 File Offset: 0x004AE4E8
+	// Token: 0x06000091 RID: 145 RVA: 0x00212CD0 File Offset: 0x00210ED0
 	public void method_80()
 	{
 		this.serialPort_0.Close();
 	}
 
-	// Token: 0x06000092 RID: 146 RVA: 0x004B3D00 File Offset: 0x004AE500
+	// Token: 0x06000092 RID: 146 RVA: 0x00212CE8 File Offset: 0x00210EE8
 	private async void method_81<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.button5.Enabled = false;
@@ -3305,7 +3305,7 @@ public partial class Form1 : Form
 		this.button5.Enabled = true;
 	}
 
-	// Token: 0x06000093 RID: 147 RVA: 0x004B3D48 File Offset: 0x004AE548
+	// Token: 0x06000093 RID: 147 RVA: 0x00212D30 File Offset: 0x00210F30
 	private void method_82<T0, T1, T2, T3, T4>(T1 gparam_0, T2 gparam_1)
 	{
 		if (!(this.button6.Text == "Refresh"))
@@ -3326,7 +3326,7 @@ public partial class Form1 : Form
 		this.method_75<T3, T4, T1>();
 	}
 
-	// Token: 0x06000094 RID: 148 RVA: 0x004B3DD0 File Offset: 0x004AE5D0
+	// Token: 0x06000094 RID: 148 RVA: 0x00212DB8 File Offset: 0x00210FB8
 	private void method_83<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		this.jbtext.Text = "Click \"Jailbreak Device\" to start.";
@@ -3359,7 +3359,7 @@ public partial class Form1 : Form
 		this.method_22<T2>();
 	}
 
-	// Token: 0x06000095 RID: 149 RVA: 0x004B3F48 File Offset: 0x004AE748
+	// Token: 0x06000095 RID: 149 RVA: 0x00212F30 File Offset: 0x00211130
 	private void method_84<T0, T1, T2, T3>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 t = this.ECIDStatusValue.Text != "Registered";
@@ -3372,7 +3372,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000096 RID: 150 RVA: 0x004B3F98 File Offset: 0x004AE798
+	// Token: 0x06000096 RID: 150 RVA: 0x00212F80 File Offset: 0x00211180
 	private async void method_85<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		try
@@ -3411,7 +3411,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000097 RID: 151 RVA: 0x004B3FE0 File Offset: 0x004AE7E0
+	// Token: 0x06000097 RID: 151 RVA: 0x00212FC8 File Offset: 0x002111C8
 	private void method_86<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 @checked = this.checkBox3.Checked;
@@ -3427,7 +3427,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000098 RID: 152 RVA: 0x004B402C File Offset: 0x004AE82C
+	// Token: 0x06000098 RID: 152 RVA: 0x00213014 File Offset: 0x00211214
 	private void method_87<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		if (!this.checkBox5.Checked)
@@ -3453,7 +3453,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x06000099 RID: 153 RVA: 0x004B4100 File Offset: 0x004AE900
+	// Token: 0x06000099 RID: 153 RVA: 0x002130E8 File Offset: 0x002112E8
 	private void method_88<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		this.label11.Text = "You can erase device now....";
@@ -3470,7 +3470,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x0600009A RID: 154 RVA: 0x004B4194 File Offset: 0x004AE994
+	// Token: 0x0600009A RID: 154 RVA: 0x0021317C File Offset: 0x0021137C
 	private void method_89<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		ProcessStartInfo processStartInfo = Form1.smethod_4();
@@ -3479,7 +3479,7 @@ public partial class Form1 : Form
 		Process.Start(processStartInfo);
 	}
 
-	// Token: 0x0600009B RID: 155 RVA: 0x004B41C0 File Offset: 0x004AE9C0
+	// Token: 0x0600009B RID: 155 RVA: 0x002131A8 File Offset: 0x002113A8
 	private void method_90<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.jailbreakPanel.Visible = false;
@@ -3489,7 +3489,7 @@ public partial class Form1 : Form
 		this.method_40();
 	}
 
-	// Token: 0x0600009C RID: 156 RVA: 0x004B4204 File Offset: 0x004AEA04
+	// Token: 0x0600009C RID: 156 RVA: 0x002131EC File Offset: 0x002113EC
 	private void method_91<T0, T1, T2, T3, T4, T5, T6>()
 	{
 		base.Invoke(new Action(this.method_111));
@@ -3535,7 +3535,7 @@ public partial class Form1 : Form
 		this.method_92<T0, T1, T3, T4, T5, T6>();
 	}
 
-	// Token: 0x0600009D RID: 157 RVA: 0x004B4348 File Offset: 0x004AEB48
+	// Token: 0x0600009D RID: 157 RVA: 0x00213330 File Offset: 0x00211530
 	private void method_92<T0, T1, T2, T3, T4, T5>()
 	{
 		base.Invoke(new Action(this.method_113));
@@ -3578,7 +3578,7 @@ public partial class Form1 : Form
 		base.Invoke(new Action(this.method_114));
 	}
 
-	// Token: 0x0600009E RID: 158 RVA: 0x004B446C File Offset: 0x004AEC6C
+	// Token: 0x0600009E RID: 158 RVA: 0x00213454 File Offset: 0x00211654
 	private async void method_93<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.button7.Enabled = false;
@@ -3676,7 +3676,7 @@ public partial class Form1 : Form
 		this.button9.Enabled = true;
 	}
 
-	// Token: 0x0600009F RID: 159 RVA: 0x004B44B4 File Offset: 0x004AECB4
+	// Token: 0x0600009F RID: 159 RVA: 0x0021349C File Offset: 0x0021169C
 	private void method_94<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		ProcessStartInfo processStartInfo = Form1.smethod_4();
@@ -3685,7 +3685,7 @@ public partial class Form1 : Form
 		Process.Start(processStartInfo);
 	}
 
-	// Token: 0x060000A0 RID: 160 RVA: 0x004B44E0 File Offset: 0x004AECE0
+	// Token: 0x060000A0 RID: 160 RVA: 0x002134C8 File Offset: 0x002116C8
 	private void method_95<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		ProcessStartInfo processStartInfo = Form1.smethod_4();
@@ -3694,7 +3694,7 @@ public partial class Form1 : Form
 		Process.Start(processStartInfo);
 	}
 
-	// Token: 0x060000A1 RID: 161 RVA: 0x004B450C File Offset: 0x004AED0C
+	// Token: 0x060000A1 RID: 161 RVA: 0x002134F4 File Offset: 0x002116F4
 	private void method_96<T0, T1, T2>(T0 gparam_0, T1 gparam_1)
 	{
 		ProcessStartInfo processStartInfo = Form1.smethod_4();
@@ -3703,7 +3703,7 @@ public partial class Form1 : Form
 		Process.Start(processStartInfo);
 	}
 
-	// Token: 0x060000A2 RID: 162 RVA: 0x004B4544 File Offset: 0x004AED44
+	// Token: 0x060000A2 RID: 162 RVA: 0x0021352C File Offset: 0x0021172C
 	private void method_97<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 @checked = this.checkBox9.Checked;
@@ -3727,7 +3727,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A3 RID: 163 RVA: 0x004B45F4 File Offset: 0x004AEDF4
+	// Token: 0x060000A3 RID: 163 RVA: 0x002135DC File Offset: 0x002117DC
 	private void method_98<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		if (!this.checkBox10.Checked)
@@ -3750,7 +3750,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A4 RID: 164 RVA: 0x004B46A4 File Offset: 0x004AEEA4
+	// Token: 0x060000A4 RID: 164 RVA: 0x0021368C File Offset: 0x0021188C
 	private void method_99<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 @checked = this.checkBox11.Checked;
@@ -3774,7 +3774,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A5 RID: 165 RVA: 0x004B4754 File Offset: 0x004AEF54
+	// Token: 0x060000A5 RID: 165 RVA: 0x0021373C File Offset: 0x0021193C
 	private void method_100<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 @checked = this.checkBox12.Checked;
@@ -3798,7 +3798,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A6 RID: 166 RVA: 0x004B4804 File Offset: 0x004AF004
+	// Token: 0x060000A6 RID: 166 RVA: 0x002137EC File Offset: 0x002119EC
 	private void method_101<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		T0 @checked = this.checkBox14.Checked;
@@ -3808,7 +3808,7 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A7 RID: 167 RVA: 0x004B4834 File Offset: 0x004AF034
+	// Token: 0x060000A7 RID: 167 RVA: 0x0021381C File Offset: 0x00211A1C
 	private async void method_102<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.jbtext.ForeColor = Color.Black;
@@ -3831,7 +3831,7 @@ public partial class Form1 : Form
 		this.button11.Enabled = true;
 	}
 
-	// Token: 0x060000A8 RID: 168 RVA: 0x004B487C File Offset: 0x004AF07C
+	// Token: 0x060000A8 RID: 168 RVA: 0x00213864 File Offset: 0x00211A64
 	private void method_103<T0, T1, T2>(T1 gparam_0, T2 gparam_1)
 	{
 		if (!this.checkBox6.Checked)
@@ -3858,13 +3858,13 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000A9 RID: 169 RVA: 0x004B4958 File Offset: 0x004AF158
+	// Token: 0x060000A9 RID: 169 RVA: 0x00213940 File Offset: 0x00211B40
 	private void method_104<T0, T1>(T0 gparam_0, T1 gparam_1)
 	{
 		this.button5.Enabled = this.comboBox1.SelectedIndex != -1;
 	}
 
-	// Token: 0x060000AA RID: 170 RVA: 0x004B4984 File Offset: 0x004AF184
+	// Token: 0x060000AA RID: 170 RVA: 0x0021396C File Offset: 0x00211B6C
 	protected virtual void System.Windows.Forms.Form.Dispose(bool disposing)
 	{
 		if (disposing && this.icontainer_0 != null)
@@ -3874,7 +3874,7 @@ public partial class Form1 : Form
 		base.Dispose(disposing);
 	}
 
-	// Token: 0x060000AB RID: 171 RVA: 0x004B49B4 File Offset: 0x004AF1B4
+	// Token: 0x060000AB RID: 171 RVA: 0x0021399C File Offset: 0x00211B9C
 	private void method_105<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>()
 	{
 		T0 t = new ComponentResourceManager(typeof(Form1));
@@ -4354,7 +4354,7 @@ public partial class Form1 : Form
 		base.PerformLayout();
 	}
 
-	// Token: 0x060000AC RID: 172 RVA: 0x004B6754 File Offset: 0x004B0F54
+	// Token: 0x060000AC RID: 172 RVA: 0x0021573C File Offset: 0x0021393C
 	// Note: this type is marked as 'beforefieldinit'.
 	static Form1()
 	{
@@ -4396,7 +4396,7 @@ public partial class Form1 : Form
 		Form1.dictionary_0 = obj;
 	}
 
-	// Token: 0x060000AD RID: 173 RVA: 0x004B6998 File Offset: 0x004B1198
+	// Token: 0x060000AD RID: 173 RVA: 0x00215980 File Offset: 0x00213B80
 	[CompilerGenerated]
 	private void method_106<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>()
 	{
@@ -4440,14 +4440,14 @@ public partial class Form1 : Form
 		}
 	}
 
-	// Token: 0x060000AE RID: 174 RVA: 0x004B6B88 File Offset: 0x004B1388
+	// Token: 0x060000AE RID: 174 RVA: 0x00215B70 File Offset: 0x00213D70
 	[CompilerGenerated]
 	private void method_107()
 	{
 		this.button5.Enabled = false;
 	}
 
-	// Token: 0x060000AF RID: 175 RVA: 0x004B6BA4 File Offset: 0x004B13A4
+	// Token: 0x060000AF RID: 175 RVA: 0x00215B8C File Offset: 0x00213D8C
 	[CompilerGenerated]
 	[DebuggerStepThrough]
 	private T0 method_108<T0>()
@@ -4460,7 +4460,7 @@ public partial class Form1 : Form
 		return @class.asyncTaskMethodBuilder_0.Task;
 	}
 
-	// Token: 0x060000B0 RID: 176 RVA: 0x004B6BE8 File Offset: 0x004B13E8
+	// Token: 0x060000B0 RID: 176 RVA: 0x00215BD0 File Offset: 0x00213DD0
 	[CompilerGenerated]
 	private void method_109<T0, T1, T2, T3, T4>()
 	{
@@ -4482,7 +4482,7 @@ public partial class Form1 : Form
 		this.method_43<T1, T3, T4>(1000);
 	}
 
-	// Token: 0x060000B1 RID: 177 RVA: 0x004B6CD0 File Offset: 0x004B14D0
+	// Token: 0x060000B1 RID: 177 RVA: 0x00215CB8 File Offset: 0x00213EB8
 	[CompilerGenerated]
 	private void method_110<T0, T1, T2, T3, T4, T5, T6, T7>()
 	{
@@ -4624,7 +4624,7 @@ public partial class Form1 : Form
 		MessageBox.Show("Your device has been sucessfully activated! \n\nDon't update or restore your device.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 	}
 
-	// Token: 0x060000B2 RID: 178 RVA: 0x004B78E8 File Offset: 0x004B20E8
+	// Token: 0x060000B2 RID: 178 RVA: 0x002168D0 File Offset: 0x00214AD0
 	[CompilerGenerated]
 	private void method_111()
 	{
@@ -4632,7 +4632,7 @@ public partial class Form1 : Form
 		this.pressDFU.Enabled = true;
 	}
 
-	// Token: 0x060000B3 RID: 179 RVA: 0x004B7910 File Offset: 0x004B2110
+	// Token: 0x060000B3 RID: 179 RVA: 0x002168F8 File Offset: 0x00214AF8
 	[CompilerGenerated]
 	private void method_112<T0, T1, T2, T3>(T0 gparam_0, T1 gparam_1)
 	{
@@ -4640,7 +4640,7 @@ public partial class Form1 : Form
 		((T3)((object)gparam_0)).Stop();
 	}
 
-	// Token: 0x060000B4 RID: 180 RVA: 0x004B7930 File Offset: 0x004B2130
+	// Token: 0x060000B4 RID: 180 RVA: 0x00216918 File Offset: 0x00214B18
 	[CompilerGenerated]
 	private void method_113()
 	{
@@ -4650,7 +4650,7 @@ public partial class Form1 : Form
 		this.label20.Enabled = true;
 	}
 
-	// Token: 0x060000B5 RID: 181 RVA: 0x004B7970 File Offset: 0x004B2170
+	// Token: 0x060000B5 RID: 181 RVA: 0x00216958 File Offset: 0x00214B58
 	[CompilerGenerated]
 	private void method_114()
 	{
@@ -4659,14 +4659,14 @@ public partial class Form1 : Form
 		this.volumeDown78XLab.Enabled = false;
 	}
 
-	// Token: 0x060000B6 RID: 182 RVA: 0x004B79A4 File Offset: 0x004B21A4
+	// Token: 0x060000B6 RID: 182 RVA: 0x0021698C File Offset: 0x00214B8C
 	[CompilerGenerated]
 	private void method_115<T0, T1, T2, T3, T4, T5, T6>()
 	{
 		this.method_91<T0, T1, T2, T3, T4, T5, T6>();
 	}
 
-	// Token: 0x060000B7 RID: 183 RVA: 0x004B79B8 File Offset: 0x004B21B8
+	// Token: 0x060000B7 RID: 183 RVA: 0x002169A0 File Offset: 0x00214BA0
 	[CompilerGenerated]
 	private void method_116<T0, T1, T2>()
 	{
@@ -4674,7 +4674,7 @@ public partial class Form1 : Form
 		this.method_8<T0, T2>();
 	}
 
-	// Token: 0x060000B8 RID: 184 RVA: 0x004B79D4 File Offset: 0x004B21D4
+	// Token: 0x060000B8 RID: 184 RVA: 0x002169BC File Offset: 0x00214BBC
 	[CompilerGenerated]
 	private void method_117<T0, T1, T2, T3, T4>()
 	{
@@ -4688,103 +4688,103 @@ public partial class Form1 : Form
 		this.progressBar1.Value += 40;
 	}
 
-	// Token: 0x060000B9 RID: 185 RVA: 0x004B7A54 File Offset: 0x004B2254
+	// Token: 0x060000B9 RID: 185 RVA: 0x00216A3C File Offset: 0x00214C3C
 	static SerialPort smethod_3()
 	{
 		return Activator.CreateInstance(typeof(SerialPort));
 	}
 
-	// Token: 0x060000BA RID: 186 RVA: 0x004B7A70 File Offset: 0x004B2270
+	// Token: 0x060000BA RID: 186 RVA: 0x00216A58 File Offset: 0x00214C58
 	static ProcessStartInfo smethod_4()
 	{
 		return Activator.CreateInstance(typeof(ProcessStartInfo));
 	}
 
-	// Token: 0x060000BB RID: 187 RVA: 0x004B7A8C File Offset: 0x004B228C
+	// Token: 0x060000BB RID: 187 RVA: 0x00216A74 File Offset: 0x00214C74
 	static Process smethod_5()
 	{
 		return Activator.CreateInstance(typeof(Process));
 	}
 
-	// Token: 0x060000BC RID: 188 RVA: 0x004B7AA8 File Offset: 0x004B22A8
+	// Token: 0x060000BC RID: 188 RVA: 0x00216A90 File Offset: 0x00214C90
 	static NSDictionary smethod_6()
 	{
 		return Activator.CreateInstance(typeof(NSDictionary));
 	}
 
-	// Token: 0x060000BD RID: 189 RVA: 0x004B7AC4 File Offset: 0x004B22C4
+	// Token: 0x060000BD RID: 189 RVA: 0x00216AAC File Offset: 0x00214CAC
 	static XmlDocument smethod_7()
 	{
 		return Activator.CreateInstance(typeof(XmlDocument));
 	}
 
-	// Token: 0x060000BE RID: 190 RVA: 0x004B7AE0 File Offset: 0x004B22E0
+	// Token: 0x060000BE RID: 190 RVA: 0x00216AC8 File Offset: 0x00214CC8
 	static WebClient smethod_8()
 	{
 		return Activator.CreateInstance(typeof(WebClient));
 	}
 
-	// Token: 0x060000BF RID: 191 RVA: 0x004B7AFC File Offset: 0x004B22FC
+	// Token: 0x060000BF RID: 191 RVA: 0x00216AE4 File Offset: 0x00214CE4
 	static Random smethod_9()
 	{
 		return Activator.CreateInstance(typeof(Random));
 	}
 
-	// Token: 0x060000C0 RID: 192 RVA: 0x004B7B18 File Offset: 0x004B2318
+	// Token: 0x060000C0 RID: 192 RVA: 0x00216B00 File Offset: 0x00214D00
 	static System.Windows.Forms.Timer smethod_10()
 	{
 		return Activator.CreateInstance(typeof(System.Windows.Forms.Timer));
 	}
 
-	// Token: 0x060000C1 RID: 193 RVA: 0x004B7B34 File Offset: 0x004B2334
+	// Token: 0x060000C1 RID: 193 RVA: 0x00216B1C File Offset: 0x00214D1C
 	static Label smethod_11()
 	{
 		return Activator.CreateInstance(typeof(Label));
 	}
 
-	// Token: 0x060000C2 RID: 194 RVA: 0x004B7B50 File Offset: 0x004B2350
+	// Token: 0x060000C2 RID: 194 RVA: 0x00216B38 File Offset: 0x00214D38
 	static Button smethod_12()
 	{
 		return Activator.CreateInstance(typeof(Button));
 	}
 
-	// Token: 0x060000C3 RID: 195 RVA: 0x004B7B6C File Offset: 0x004B236C
+	// Token: 0x060000C3 RID: 195 RVA: 0x00216B54 File Offset: 0x00214D54
 	static CheckBox smethod_13()
 	{
 		return Activator.CreateInstance(typeof(CheckBox));
 	}
 
-	// Token: 0x060000C4 RID: 196 RVA: 0x004B7B88 File Offset: 0x004B2388
+	// Token: 0x060000C4 RID: 196 RVA: 0x00216B70 File Offset: 0x00214D70
 	static Panel smethod_14()
 	{
 		return Activator.CreateInstance(typeof(Panel));
 	}
 
-	// Token: 0x060000C5 RID: 197 RVA: 0x004B7BA4 File Offset: 0x004B23A4
+	// Token: 0x060000C5 RID: 197 RVA: 0x00216B8C File Offset: 0x00214D8C
 	static PictureBox smethod_15()
 	{
 		return Activator.CreateInstance(typeof(PictureBox));
 	}
 
-	// Token: 0x060000C6 RID: 198 RVA: 0x004B7BC0 File Offset: 0x004B23C0
+	// Token: 0x060000C6 RID: 198 RVA: 0x00216BA8 File Offset: 0x00214DA8
 	static LinkLabel smethod_16()
 	{
 		return Activator.CreateInstance(typeof(LinkLabel));
 	}
 
-	// Token: 0x060000C7 RID: 199 RVA: 0x004B7BDC File Offset: 0x004B23DC
+	// Token: 0x060000C7 RID: 199 RVA: 0x00216BC4 File Offset: 0x00214DC4
 	static ComboBox smethod_17()
 	{
 		return Activator.CreateInstance(typeof(ComboBox));
 	}
 
-	// Token: 0x060000C8 RID: 200 RVA: 0x004B7BF8 File Offset: 0x004B23F8
+	// Token: 0x060000C8 RID: 200 RVA: 0x00216BE0 File Offset: 0x00214DE0
 	static TextBox smethod_18()
 	{
 		return Activator.CreateInstance(typeof(TextBox));
 	}
 
-	// Token: 0x060000C9 RID: 201 RVA: 0x004B7C14 File Offset: 0x004B2414
+	// Token: 0x060000C9 RID: 201 RVA: 0x00216BFC File Offset: 0x00214DFC
 	static ProgressBar smethod_19()
 	{
 		return Activator.CreateInstance(typeof(ProgressBar));
@@ -5122,19 +5122,19 @@ public partial class Form1 : Form
 	[Serializable]
 	private sealed class Class6
 	{
-		// Token: 0x060000CF RID: 207 RVA: 0x004B8BA4 File Offset: 0x004B33A4
+		// Token: 0x060000CF RID: 207 RVA: 0x00217B8C File Offset: 0x00215D8C
 		internal T0 method_0<T0, T1>(T1 gparam_0)
 		{
 			return gparam_0.Value;
 		}
 
-		// Token: 0x060000D0 RID: 208 RVA: 0x004B8BA4 File Offset: 0x004B33A4
+		// Token: 0x060000D0 RID: 208 RVA: 0x00217B8C File Offset: 0x00215D8C
 		internal T0 method_1<T0, T1>(T1 gparam_0)
 		{
 			return gparam_0.Value;
 		}
 
-		// Token: 0x060000D1 RID: 209 RVA: 0x004B8BA4 File Offset: 0x004B33A4
+		// Token: 0x060000D1 RID: 209 RVA: 0x00217B8C File Offset: 0x00215D8C
 		internal T0 method_2<T0, T1>(T1 gparam_0)
 		{
 			return gparam_0.Value;
@@ -5157,7 +5157,7 @@ public partial class Form1 : Form
 	[CompilerGenerated]
 	private sealed class Class7
 	{
-		// Token: 0x060000D3 RID: 211 RVA: 0x004B8BB8 File Offset: 0x004B33B8
+		// Token: 0x060000D3 RID: 211 RVA: 0x00217BA0 File Offset: 0x00215DA0
 		internal void method_0()
 		{
 			this.form1_0.pressDFU.Text = this.string_0;
@@ -5174,7 +5174,7 @@ public partial class Form1 : Form
 	[CompilerGenerated]
 	private sealed class Class8
 	{
-		// Token: 0x060000D5 RID: 213 RVA: 0x004B8BDC File Offset: 0x004B33DC
+		// Token: 0x060000D5 RID: 213 RVA: 0x00217BC4 File Offset: 0x00215DC4
 		internal void method_0()
 		{
 			this.form1_0.label20.Text = this.string_0;
@@ -5191,7 +5191,7 @@ public partial class Form1 : Form
 	[CompilerGenerated]
 	private sealed class Class9
 	{
-		// Token: 0x060000D7 RID: 215 RVA: 0x004B8C00 File Offset: 0x004B3400
+		// Token: 0x060000D7 RID: 215 RVA: 0x00217BE8 File Offset: 0x00215DE8
 		internal void method_0<T0, T1>(T0 gparam_0, T1 gparam_1)
 		{
 			this.timer_0.Enabled = false;
